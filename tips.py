@@ -7,6 +7,9 @@ sum(list(map(int, list(str(a))))) #### [1, 2, 3]
 a = 1 2 3
 list(map(int, input().split())) #### [1, 2, 3]
 
+### 各変数にする
+a = 1 2
+n, sum = map(int, input().split()) ### n=1 sum=2
 
 ## リスト
 l = []
