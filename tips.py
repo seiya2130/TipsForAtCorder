@@ -11,6 +11,7 @@ list(map(int, input().split())) #### [1, 2, 3]
 a = 1 2
 n, sum = map(int, input().split()) ### n=1 sum=2
 
+
 ## リスト
 l = []
 
@@ -55,3 +56,7 @@ range(1, 3) # 1,2
 ### 1スタートで最後+1
 range(1, 3+1) # 1,2,3
 
+
+## 文字列
+### 後方一致
+"abc".endswith("bc") # True
