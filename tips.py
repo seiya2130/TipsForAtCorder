@@ -60,3 +60,6 @@ range(1, 3+1) # 1,2,3
 ## 文字列
 ### 後方一致
 "abc".endswith("bc") # True
+
+### 後方から一致文字を削除
+"abc".rstrip("c") # ab
