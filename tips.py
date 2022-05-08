@@ -47,17 +47,19 @@ l.index(i)
 del l[i]
 
 ### 昇順ソート
-l.sort()
+l.sort() ### lをソートする
+sorted(l) ## lをソートした新しいリストを返す
 
 ### 降順ソート
-l.sort(reverse=True)
+l.sort(reverse=True) ### lを逆ソートする
+sorted(l, reverse=True) ### lを逆ソートした新しいリストを返す
 
 ### 重複削除(その後リストにする)
 list(set(l))
 
 ### 反転
-l.reverse()
-list(reversed(l))
+l.reverse() ### lを反転させる
+list(reversed(l)) ### lを反転して新しいリストを返す
 
 ### 特定文字のカウント
 l.count("a")
