@@ -1,7 +1,7 @@
 ## 入力
 ### 数値を1文字ずつ数値リストにする
 a = 123
-sum(list(map(int, list(str(a))))) #### [1, 2, 3]
+list(map(int, list(str(a)))) #### [1, 2, 3]
 
 ### 数値配列にする
 a = 1 2 3
@@ -9,7 +9,7 @@ list(map(int, input().split())) #### [1, 2, 3]
 
 ### 各変数にする
 a = 1 2
-n, sum = map(int, input().split()) ### n=1 sum=2
+a, b  = map(int, input().split()) ### a = 1, b = 2
 
 
 ## 出力
@@ -119,3 +119,7 @@ max(1, 2, 3) ### 3
 
 ### 最小値
 min(1, 2) ### 1
+
+### 配列の積(numpyは数値計算用の拡張モジュール)
+import numpy as np
+np.prod(l)
