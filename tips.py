@@ -175,3 +175,9 @@ min(1, 2) ### 1
 ### 配列の積(numpyは数値計算用の拡張モジュール)
 import numpy as np
 np.prod(l)
+
+### ユークリッドの互除法(2つの自然数の最大公約数)
+import math
+a = 1050
+b = 300
+print(math.gcd(a,b)) ### 150
